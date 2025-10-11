@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(#2eeee7,#effff7);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    font-family: monospace;
+}
+
+li{
+    display: inline-block; 
+    margin-right: 20px;
+}
+img:hover{
+    background-color:#effff7;
+    border-radius: 15px;
+    transform: scale(0.7); 
+}
+
+.navigation{
+    background: linear-gradient(#51cf9e,#5ee8c3);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.navigationdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 50px;
+    text-align: left;
+    color: white;
+}

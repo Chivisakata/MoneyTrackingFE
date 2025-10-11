@@ -1,0 +1,47 @@
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+body{
+    background: linear-gradient(#2eeee7,#effff7);
+    background-repeat: no-repeat;
+    background-attachment:fixed;background-color:#dbf8ed;
+    font-family:monospace;
+}
+.loginform{
+    width:25%;
+    height: 160px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(#51cf9e,#5ee8c3);
+    border-radius: 15px;
+}
+.loginform form{
+    width: 100%;
+}
+input{
+    width: 50%;
+    border-radius: 5px;
+    border-color:#c1fce8;
+}
+form label{
+    font-size: 15px;
+    font-style: italic;
+}
+.form-footer
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+button{
+    border-radius: 5px;
+}
+button:hover{
+    transform: scale(1.2);
+}
