@@ -1,9 +1,14 @@
 
 h1 {
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
 }
 body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
     background: linear-gradient(#2eeee7,#effff7);
     background-repeat: no-repeat;
     background-attachment:fixed;background-color:#dbf8ed;
@@ -11,21 +16,23 @@ body{
 }
 .loginform{
     width:25%;
-    height: 160px;
+    height: 260px;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
-    margin: auto;
     display:flex;
     flex-direction: column;
     background: linear-gradient(#51cf9e,#5ee8c3);
     border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    
 }
-.loginform form{
-    width: 100%;
-}
+
+
 input{
-    width: 50%;
+    height: 25px;
+    width: 90%;
     border-radius: 5px;
     border-color:#c1fce8;
 }
@@ -41,6 +48,7 @@ form label{
 }
 button{
     border-radius: 5px;
+
 }
 button:hover{
     transform: scale(1.2);
